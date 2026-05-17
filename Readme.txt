@@ -1,67 +1,67 @@
-
 # River Raid Game (C++ / OOP)
 
 ---
 
-## Project Overview
-A 2D C++ game developed using Object-Oriented Programming principles.  
-The game simulates a River Raid-style environment with enemy spawning, collision detection, scoring, and fuel management.
+## Overview
+A 2D C++ game developed using Object-Oriented Programming principles.
+
+The game simulates a River Raid-style environment with enemy spawning, collision detection, scoring, and fuel management in a real-time gameplay system.
 
 ---
 
 ## Features
-- Enemy spawning system  
-- Collision detection  
-- Scoring system  
-- Fuel management system  
-- Pause / Resume functionality  
-- Save and Load game state  
+- Enemy spawning system
+- Collision detection
+- Scoring system
+- Fuel management
+- Pause / Resume functionality
+- Save and Load game state
 
 ---
 
 ## Concepts Used
-- Object-Oriented Programming (OOP)  
-- Game Loop Design  
-- Event-driven Programming  
-- State Management  
+- Object-Oriented Programming (OOP)
+- Game Loop Design
+- Event-driven Programming
+- State Management
 
 ---
 
 ## Tech Stack
-- C++  
-- CMU Graphics Library  
-- OOP Principles  
+- C++
+- CMU Graphics Library
+- OOP Principles
 
 ---
 
-## How to Run (IMPORTANT)
+## How to Run
 
 This project uses the **CMUgraphics package**.
 
 ### Setup Notes
-Documentation for CMUgraphics is found in `Manual.txt`.
+Documentation for the graphics package is available in `Manual.txt`.
 
-### 🔧 Key Requirements
+### Key Requirements
 - Include `CMUgraphics.h` instead of `graphics.h`
-- Ensure correct compiler setup for your IDE
+- Ensure proper compiler setup for your IDE
 - Some compilers may require modifications in `version.h`
 
 ### Important Notes
-- Some constants were renamed:
-  - `L_CLICK → LEFT_CLICK`
-  - `R_CLICK → RIGHT_CLICK`
-  - `LEFT → LEFT_BUTTON`
-  - `RIGHT → RIGHT_BUTTON`
+Some constants were renamed in newer package versions:
+- `L_CLICK → LEFT_CLICK`
+- `R_CLICK → RIGHT_CLICK`
+- `LEFT → LEFT_BUTTON`
+- `RIGHT → RIGHT_BUTTON`
 
-- Window behavior may require mouse click to close (see `SetWaitClose` in Manual.txt)
+Window behavior may require a mouse click to close (`SetWaitClose` in `Manual.txt`).
 
 ---
 
 ## Demo Files
-- `Demo.cpp` → full library demonstration  
-- `House.cpp` → simple example project  
+- `Demo.cpp` → Full graphics package demonstration
+- `House.cpp` → Simple example project
 
 ---
 
-## Purpose
-Built as a university project to apply OOP concepts in a real-time game environment simulation.
+## 🎯 Purpose
+Built as a university project to apply OOP concepts, event-driven programming, and real-time game system design.
